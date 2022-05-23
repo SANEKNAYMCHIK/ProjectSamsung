@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="arrayabcwords">
+        <item>@drawable/aw1</item>
+        <item>@drawable/bw1</item>
+        <item>@drawable/vw1</item>
+        <item>@drawable/gw1</item>
+        <item>@drawable/dw1</item>
+        <item>@drawable/ew2</item>
+        <item>@drawable/jow1</item>
+        <item>@drawable/zhw1</item>
+        <item>@drawable/zw2</item>
+        <item>@drawable/iw1</item>
+        <item>@drawable/yow2</item>
+        <item>@drawable/kw2</item>
+        <item>@drawable/lw1</item>
+        <item>@drawable/mw1</item>
+        <item>@drawable/nw1</item>
+        <item>@drawable/ow1</item>
+        <item>@drawable/pw1</item>
+        <item>@drawable/rw2</item>
+        <item>@drawable/sw1</item>
+        <item>@drawable/tw1</item>
+        <item>@drawable/yw1</item>
+        <item>@drawable/fw2</item>
+        <item>@drawable/xw2</item>
+        <item>@drawable/cw2</item>
+        <item>@drawable/chw1</item>
+        <item>@drawable/shw1</item>
+        <item>@drawable/sshw1</item>
+        <item>@drawable/three_words</item>
+        <item>@drawable/three_words</item>
+        <item>@drawable/three_words</item>
+        <item>@drawable/jew2</item>
+        <item>@drawable/uw1</item>
+        <item>@drawable/jaw2</item>
+    </integer-array>
+</resources>

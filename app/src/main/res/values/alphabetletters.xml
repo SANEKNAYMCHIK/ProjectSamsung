@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="arrayabcletters">
+        <item>@drawable/alph_a</item>
+        <item>@drawable/alph_b</item>
+        <item>@drawable/alph_v</item>
+        <item>@drawable/alph_g</item>
+        <item>@drawable/alph_d</item>
+        <item>@drawable/alph_e</item>
+        <item>@drawable/alph_jo</item>
+        <item>@drawable/alph_zh</item>
+        <item>@drawable/alph_z</item>
+        <item>@drawable/alph_i</item>
+        <item>@drawable/alph_yo</item>
+        <item>@drawable/alph_k</item>
+        <item>@drawable/alph_l</item>
+        <item>@drawable/alph_m</item>
+        <item>@drawable/alph_n</item>
+        <item>@drawable/alph_o</item>
+        <item>@drawable/alph_p</item>
+        <item>@drawable/alph_r</item>
+        <item>@drawable/alph_s</item>
+        <item>@drawable/alph_t</item>
+        <item>@drawable/alph_y</item>
+        <item>@drawable/alph_f</item>
+        <item>@drawable/alph_x</item>
+        <item>@drawable/alph_c</item>
+        <item>@drawable/alph_ch</item>
+        <item>@drawable/alph_sh</item>
+        <item>@drawable/alph_ssh</item>
+        <item>@drawable/alph_iye</item>
+        <item>@drawable/alph_ji</item>
+        <item>@drawable/alph_ij</item>
+        <item>@drawable/alph_je</item>
+        <item>@drawable/alph_u</item>
+        <item>@drawable/alph_ja</item>
+    </integer-array>
+</resources>

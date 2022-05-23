@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BrainChild</string>
+    <string name="main_menu_play">Играть</string>
+    <string name="main_menu_alphabet">Азбука</string>
+    <string name="main_menu_letters">Буквы</string>
+    <string name="main_menu_numerals">Цифры</string>
+    <string name="main_menu_painting">Раскраски</string>
+    <string name="main_menu_cartoon">Мультфильмы</string>
+    <string name="star_start_value">0</string>
+    <string name="main_menu_info">Об игре</string>
+    <string name="main_menu_about">Создатель: Наумов Александр Приложение создано в рамках курса IT школы Samsung 2021-2022</string>
+    <string name="main_menu_rules"><![CDATA[Правила: Проходя уровни в игре <Буквы> ребёнок получает желтые звезды; проходя уровни в игре <Цифры> ребёнок получает синие звезды; игра <Раскраски> на развитие мелкой моторики и внимательности;мультики можно смотреть, только если ребёнок соберёт хотя по 5 синих и желтых звезд.]]></string>
+</resources>

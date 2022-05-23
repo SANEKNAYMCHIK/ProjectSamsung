@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arraysounds">
+        <item>@raw/sound_a</item>
+        <item>@raw/sound_b</item>
+        <item>@raw/sound_v</item>
+        <item>@raw/sound_g</item>
+        <item>@raw/sound_d</item>
+        <item>@raw/sound_e</item>
+        <item>@raw/sound_jo</item>
+        <item>@raw/sound_zh</item>
+        <item>@raw/sound_z</item>
+        <item>@raw/sound_i</item>
+        <item>@raw/sound_yo</item>
+        <item>@raw/sound_k</item>
+        <item>@raw/sound_l</item>
+        <item>@raw/sound_m</item>
+        <item>@raw/sound_n</item>
+        <item>@raw/sound_o</item>
+        <item>@raw/sound_p</item>
+        <item>@raw/sound_r</item>
+        <item>@raw/sound_s</item>
+        <item>@raw/sound_t</item>
+        <item>@raw/sound_y</item>
+        <item>@raw/sound_f</item>
+        <item>@raw/sound_x</item>
+        <item>@raw/sound_c</item>
+        <item>@raw/sound_ch</item>
+        <item>@raw/sound_sh</item>
+        <item>@raw/sound_ssh</item>
+        <item>@raw/sound_iye</item>
+        <item>@raw/sound_ji</item>
+        <item>@raw/sound_ij</item>
+        <item>@raw/sound_je</item>
+        <item>@raw/sound_u</item>
+        <item>@raw/sound_ja</item>
+    </string-array>
+</resources>

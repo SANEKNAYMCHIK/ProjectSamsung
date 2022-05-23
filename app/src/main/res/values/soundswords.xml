@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arraysoundswords">
+        <item>@raw/sound_aist</item>
+        <item>@raw/sound_banan</item>
+        <item>@raw/sound_vishnya</item>
+        <item>@raw/sound_gus</item>
+        <item>@raw/sound_delphin</item>
+        <item>@raw/sound_enot</item>
+        <item>@raw/sound_jozhik</item>
+        <item>@raw/sound_zhelud</item>
+        <item>@raw/sound_zont</item>
+        <item>@raw/sound_igla</item>
+        <item>@raw/sound_yod</item>
+        <item>@raw/sound_korova</item>
+        <item>@raw/sound_lemon</item>
+        <item>@raw/sound_malina</item>
+        <item>@raw/sound_nozhnicy</item>
+        <item>@raw/sound_osa</item>
+        <item>@raw/sound_petyx</item>
+        <item>@raw/sound_ryba</item>
+        <item>@raw/sound_slon</item>
+        <item>@raw/sound_tapochki</item>
+        <item>@raw/sound_ylitka</item>
+        <item>@raw/sound_fonar</item>
+        <item>@raw/sound_xokkey</item>
+        <item>@raw/sound_cirk</item>
+        <item>@raw/sound_chasi</item>
+        <item>@raw/sound_shariki</item>
+        <item>@raw/sound_sshelkunchik</item>
+        <item>@raw/sound_iyejiij</item>
+        <item>@raw/sound_iyejiij</item>
+        <item>@raw/sound_iyejiij</item>
+        <item>@raw/sound_jeskimo</item>
+        <item>@raw/sound_ubka</item>
+        <item>@raw/sound_jaco</item>
+    </string-array>
+</resources>

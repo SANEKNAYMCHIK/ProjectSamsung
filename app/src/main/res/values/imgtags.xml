@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tags">
+        <item>letter1</item>
+        <item>letter2</item>
+        <item>letter3</item>
+        <item>letter4</item>
+        <item>letter5</item>
+        <item>letter6</item>
+        <item>letter7</item>
+        <item>letter8</item>
+        <item>letter9</item>
+        <item>letter10</item>
+        <item>letter11</item>
+        <item>letter12</item>
+        <item>letter13</item>
+        <item>letter14</item>
+        <item>letter15</item>
+        <item>letter16</item>
+        <item>letter17</item>
+        <item>letter18</item>
+        <item>letter19</item>
+        <item>letter20</item>
+        <item>letter21</item>
+        <item>letter22</item>
+        <item>letter23</item>
+        <item>letter24</item>
+        <item>letter25</item>
+        <item>letter26</item>
+        <item>letter27</item>
+        <item>letter28</item>
+        <item>letter29</item>
+        <item>letter30</item>
+        <item>letter31</item>
+        <item>letter32</item>
+        <item>letter33</item>
+    </string-array>
+</resources>

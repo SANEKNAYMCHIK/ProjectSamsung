@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="arraywords">
+        <item>@drawable/aw2</item>
+        <item>@drawable/bw2</item>
+        <item>@drawable/vw2</item>
+        <item>@drawable/gw2</item>
+        <item>@drawable/dw2</item>
+        <item>@drawable/ew1</item>
+        <item>@drawable/jow2</item>
+        <item>@drawable/zhw2</item>
+        <item>@drawable/zw1</item>
+        <item>@drawable/iw2</item>
+        <item>@drawable/yow1</item>
+        <item>@drawable/kw1</item>
+        <item>@drawable/lw2</item>
+        <item>@drawable/mw2</item>
+        <item>@drawable/nw2</item>
+        <item>@drawable/ow2</item>
+        <item>@drawable/pw2</item>
+        <item>@drawable/rw1</item>
+        <item>@drawable/sw2</item>
+        <item>@drawable/tw2</item>
+        <item>@drawable/yw2</item>
+        <item>@drawable/fw1</item>
+        <item>@drawable/xw1</item>
+        <item>@drawable/cw1</item>
+        <item>@drawable/chw2</item>
+        <item>@drawable/shw2</item>
+        <item>@drawable/sshw2</item>
+        <item>@drawable/jew1</item>
+        <item>@drawable/uw2</item>
+        <item>@drawable/jaw1</item>
+    </integer-array>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="arrayletters">
+        <item>@drawable/a</item>
+        <item>@drawable/b</item>
+        <item>@drawable/v</item>
+        <item>@drawable/g</item>
+        <item>@drawable/d</item>
+        <item>@drawable/e</item>
+        <item>@drawable/jo</item>
+        <item>@drawable/zh</item>
+        <item>@drawable/z</item>
+        <item>@drawable/i</item>
+        <item>@drawable/yo</item>
+        <item>@drawable/k</item>
+        <item>@drawable/l</item>
+        <item>@drawable/m</item>
+        <item>@drawable/n</item>
+        <item>@drawable/o</item>
+        <item>@drawable/p</item>
+        <item>@drawable/r</item>
+        <item>@drawable/s</item>
+        <item>@drawable/t</item>
+        <item>@drawable/y</item>
+        <item>@drawable/f</item>
+        <item>@drawable/x</item>
+        <item>@drawable/c</item>
+        <item>@drawable/ch</item>
+        <item>@drawable/sh</item>
+        <item>@drawable/ssh</item>
+        <item>@drawable/je</item>
+        <item>@drawable/u</item>
+        <item>@drawable/ja</item>
+    </integer-array>
+</resources>

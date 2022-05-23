@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:textSize="70sp"
+                android:text="@string/star_start_value"
+                android:tag="star1"
+                android:id="@+id/count_star_1"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/star1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:layout_weight="2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:textSize="70sp"
+                android:tag="star2"
+                android:text="@string/star_start_value"
+                android:id="@+id/count_star_2"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/star2"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:layout_weight="2"/>
+        </TableRow>
+    </TableLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="50sp"
+                android:text="@string/main_menu_play"
+                android:textColor="@color/pink"
+                android:textAlignment="center"
+                android:textSize="50sp" />
+
+            <Button
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/main_menu_alphabet"
+                android:onClick="Alphabet"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/main_menu_letters"
+                android:onClick="Words"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Numbers"
+                android:text="@string/main_menu_numerals"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/main_menu_painting"
+                android:onClick="Coloring"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="@string/main_menu_cartoon"
+                android:onClick="Cartoons"
+                android:textSize="25sp" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/main_menu_info"
+                android:onClick="Info"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
