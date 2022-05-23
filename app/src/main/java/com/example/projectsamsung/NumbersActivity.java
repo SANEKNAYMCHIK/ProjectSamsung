@@ -248,7 +248,9 @@ public class NumbersActivity extends AppCompatActivity {
                     cancel();
                     onFinish();
                 }
-                timer.setText((millisUntilFinished / 1000) - 1 + "");
+                if ((millisUntilFinished / 1000) - 1 >= 0){
+                    timer.setText((millisUntilFinished / 1000) - 1 + "");
+                }
             }
 
             @Override
