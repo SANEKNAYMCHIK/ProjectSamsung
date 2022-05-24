@@ -43,7 +43,7 @@ public class CartoonsActivity extends YouTubeBaseActivity {
                         dbManager.openDb();
                         for (String id : dbManager.get().keySet()) {
                             if ((dbManager.get().get(id) == 0 && !(id.contains("star"))) &&
-                                    (dbManager.get().get("star1") >= 5 && dbManager.get().get("star1") >= 5)) {
+                                    (dbManager.get().get("star1") >= 5 && dbManager.get().get("star2") >= 5)) {
                                 dbManager.update(id, 0);
                                 dbManager.update("star1", -5);
                                 dbManager.update("star2", -5);
