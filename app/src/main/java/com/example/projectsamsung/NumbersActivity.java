@@ -219,13 +219,20 @@ public class NumbersActivity extends AppCompatActivity {
     }
 
     private void randomvls(int h) {
-        System.out.println(h);
         int h1 = h / 5;
         int h2 = h / 15;
         int sizes = ((h1 + h2) / 4) + ((h1 + h2) / 16);
-        int step_btns = 1;
         int counter_random = btns.size() / 3;
         int flag = 0;
+        int btn_steps = 0;
+        ArrayList<Integer> btn_numb = new ArrayList<>();
+        while (btn_numb.size() != 10){
+            int num = (int) (Math.random() * 11);
+            if (!btn_numb.contains(num) && num != 0){
+                btn_numb.add(num);
+            }
+        }
+        System.out.println(btn_numb);
         while (flag < counter_random) {
             int num = (int) (Math.random() * 15);
             if (btns.get(num).getText().toString().equals("")) {
@@ -236,9 +243,11 @@ public class NumbersActivity extends AppCompatActivity {
         }
         for (int i = 0; i < btns.size(); i++) {
             if (btns.get(i).getText().toString().equals("")) {
-                btns.get(i).setText("" + step_btns);
+                System.out.println("123");
+                System.out.println(btn_numb.get(btn_steps).toString());
+                btns.get(i).setText(btn_numb.get(btn_steps).toString());
                 btns.get(i).setTextSize(TypedValue.COMPLEX_UNIT_PX, sizes);
-                step_btns++;
+                btn_steps++;
             }
         }
     }
@@ -251,7 +260,7 @@ public class NumbersActivity extends AppCompatActivity {
                     cancel();
                     onFinish();
                 }
-                if ((millisUntilFinished / 1000) - 1 >= 0){
+                if ((millisUntilFinished / 1000) - 1 >= 0) {
                     timer.setText((millisUntilFinished / 1000) - 1 + "");
                 }
             }
